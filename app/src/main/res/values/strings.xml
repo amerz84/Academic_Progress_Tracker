@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Student Progress Tracker</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">Home</string>
+    <string name="add_sample_data">Add Sample Data</string>
+    <string name="delete_all">Delete All</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="new_course">New Course</string>
+    <string name="new_term">New Term</string>
+    <string name="enter_end_date">Enter End Date</string>
+    <string name="enter_start_date">Enter Start Date</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="end_date">End Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="title">Title</string>
+    <string name="due_date">Due Date</string>
+    <string name="sharing_features">Sharing Features</string>
+    <string name="enter_due_date">Enter due date</string>
+    <string name="enter_sharing_features">Enter sharing features</string>
+    <string name="new_assessment">New Assessment</string>
+    <string name="enter_note">Enter Note</string>
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="status">Status</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="new_mentor">New Mentor</string>
+    <string name="mentors">Mentor(s):</string>
+    <string name="view_notes">View Notes</string>
+    <string name="view_assessments">View\nAssessments</string>
+    <string-array name="status_choices">
+        <item>In Progress</item>
+        <item>Plan To Take</item>
+        <item>Dropped</item>
+        <item>Completed</item>
+    </string-array>
+
+</resources>

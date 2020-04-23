@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.studentprogresstracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name=".utilities.Receiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.AssessmentDetailActivity"
+            android:label="Assessment Detail"
+            android:parentActivityName=".activities.AssessmentListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.AssessmentEditorActivity"
+            android:label="Assessment Editor"
+            android:parentActivityName=".activities.AssessmentListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.AssessmentListActivity"
+            android:label="Assessments"
+            android:parentActivityName=".activities.CourseListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.CourseDetailActivity"
+            android:label="Course Detail"
+            android:parentActivityName=".activities.CourseListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.CourseEditorActivity"
+            android:label="Course Editor"
+            android:parentActivityName=".activities.CourseDetailActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.MentorDetailActivity"
+            android:label="Mentor Detail"
+            android:parentActivityName=".activities.CourseDetailActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.TermDetailActivity"
+            android:label="Term Detail"
+            android:parentActivityName=".activities.TermListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.TermEditorActivity"
+            android:label="Term Editor"
+            android:parentActivityName=".activities.TermListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.CourseListActivity"
+            android:label="Courses"
+            android:parentActivityName=".activities.TermDetailActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.TermListActivity"
+            android:label="Terms"
+            android:parentActivityName=".activities.HomeActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.CourseNotesActivity"
+            android:label="Course Notes"
+            android:parentActivityName=".activities.CourseListActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".activities.CourseNoteDetailActivity"
+            android:label="Course Note"
+            android:parentActivityName=".activities.CourseDetailActivity"
+            android:screenOrientation="sensor"
+            tools:targetApi="jelly_bean" />
+    </application>
+
+</manifest>
