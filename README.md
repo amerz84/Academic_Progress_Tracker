@@ -18,6 +18,10 @@ This is an Android mobile application developed for students attending WGU to tr
 - Full Insert/Update/Delete capability
 
 ## Instructions for Use
-*Note: App needs to be installed on either an emulator or an actual device (minimum SDK version 15)*
+*Note: App needs to be installed on either an emulator or an actual Android device using Ice Cream Sandwich or more recent (minimum SDK version 15)*
 
-1. Download .apk file from 
+1. Download .apk file from \app\release directory
+2. Install on device/emulator (if using Android Studio, file can be dragged and dropped onto running emulator screen)
+3. Run application
+4. On the initial screen, click on the hamburger menu and select "Add Sample Data"
+5. Navigate through and interact with program as desired
