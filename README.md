@@ -4,7 +4,7 @@
 
 ## About
 
-This is an Android mobile application developed for students attending WGU to track their academic progress. It uses the Room architecture to create a persistent SQLite database. The data is arranged in a hierarchy, as follows:
+This is an Android mobile application developed for students attending WGU to track their academic progress. It uses the Room architecture to create a persistent SQLite database. The student information is arranged in a logical hierarchy, as follows:
 
 - Each student is enrolled in at least one term
 - Each term consists of at least one course
