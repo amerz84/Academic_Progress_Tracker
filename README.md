@@ -16,3 +16,8 @@ This is an Android mobile application developed for students attending WGU to tr
 - Sharing based on device capability - email, SMS, etc.
 - Device notifications/alerts - no need to be actively using application
 - Full Insert/Update/Delete capability
+
+## Instructions for Use
+*Note: App needs to be installed on either an emulator or an actual device (minimum SDK version 15)*
+
+1. Download .apk file from 
